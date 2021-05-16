@@ -1,8 +1,8 @@
 name: ecommerce_ui_kit
-description: A new Flutter package project.
+description: You can build eCommerce mobile apps easier and quicker for using eCommerce Essential UI Kit.
 version: 0.0.1
-author:
-homepage:
+author: Mehedi Hasan<mehedihasaninfrom@gmail.com>
+homepage: https://github.com/jpmehedi/ecommerce_ui_kit
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

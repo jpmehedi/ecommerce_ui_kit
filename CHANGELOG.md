@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
-
-* TODO: Describe initial release.
+## [0.0.1] - 2021-05-16
+ 
+* A description for people who will use that package or version.
