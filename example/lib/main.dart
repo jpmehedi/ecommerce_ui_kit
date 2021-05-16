@@ -73,6 +73,12 @@ class _MyHomePageState extends State<MyHomePage> {
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
+        actions: [
+          CardBadge(
+            icon: Icon(Icons.shopping_basket),
+            count: "5",
+          )
+        ],
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -104,17 +110,17 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () async {
-          await CustomAlertBox.showCustomAlertBox(
-              context: context,
-              willDisplayWidget: Container(
-                child: Text('My custom alert box, used from example!!'),
-              ));
-        },
-        tooltip: 'Show Custom Alert Box',
-        child: Icon(Icons.message),
-      ) // This trailing comma makes auto-formatting nicer for build methods.
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () async {
+      //     await CustomAlertBox.showCustomAlertBox(
+      //         context: context,
+      //         willDisplayWidget: Container(
+      //           child: Text('My custom alert box, used from example!!'),
+      //         ));
+      //   },
+      //   tooltip: 'Show Custom Alert Box',
+      //   child: Icon(Icons.message),
+      // ) // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
